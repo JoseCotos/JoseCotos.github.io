@@ -1,3 +1,5 @@
+COMANDOS GIT
+============
 git init
 git config --list
 git config --list --show-origin
@@ -20,3 +22,16 @@ git branch nombreRama
 git checkout nombreRama
 git checkout idCommit
 git merge nombreRama
+git remote add origin https://github.com/JoseCotos/hyperblog.git
+git remote
+git remote -v
+git pull origin master
+git pull origin master --allow-unrelated-histories
+
+
+GitHub
+======
+user: josecotos
+Correo: josecotos@gmail.com
+Clave: Jc40041899
+
