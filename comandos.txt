@@ -1,0 +1,22 @@
+git init
+git config --list
+git config --list --show-origin
+git config --global user.name "Jose Cotos"
+git config --global user.email "josecotos@gmail.com"
+git status
+git add nombreArchivo
+git add .
+git rm --cached nombreArchivo
+git commit -m "mensaje"
+git commit -am "mensaje<no necesita git add .>"
+git log
+git log nombreArchivo
+git log --stat
+git show
+git reset idCommit --hard
+git reset idCommit --soft
+git diff idCommit1 idCommit2
+git branch nombreRama
+git checkout nombreRama
+git checkout idCommit
+git merge nombreRama
