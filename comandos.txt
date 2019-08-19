@@ -27,6 +27,7 @@ git remote
 git remote -v
 git pull origin master
 git pull origin master --allow-unrelated-histories
+git push origin master
 
 
 GitHub
@@ -34,4 +35,12 @@ GitHub
 user: josecotos
 Correo: josecotos@gmail.com
 Clave: Jc40041899
+
+ssh-keygen -t rsa -b 4096 -C "josecotos@gmail.com"
+eval $(ssh-agent -s)
+ssh-add ~/.ssh/id_rsa
+-- copiar llave publica a github
+git pull origin master
+-- yes
+
 
