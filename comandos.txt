@@ -42,5 +42,24 @@ ssh-add ~/.ssh/id_rsa
 -- copiar llave publica a github
 git pull origin master
 -- yes
+git push origin master
 
+git log --all --graph --decorate --oneline
+alias arbolito="git log --all --graph --decorate --oneline"
+arbolito
 
+git tag -a v0.1 -m "Resultado de las primeras clases del curso" f306af3
+git tag
+git show-ref --tags
+
+git pull origin master
+git push origin --tags
+
+git tag -d dormido
+git tag
+git pull origin master
+git push origin --tags
+git push origin :refs/tags/dormido
+
+git show-branch
+git show-branch --all
