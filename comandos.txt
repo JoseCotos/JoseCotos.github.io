@@ -76,3 +76,15 @@ git push origin master
 
 -- hacer cambios en el proyecto
 git stash (guarda temporalmente lo que se cambio y vuelve a su estado original)
+git stash list
+git checkout footer
+git checkout master
+git stash pop
+git stash drop (elimina stash)
+git stash branch experimento
+
+git clean --dry-run (lista lo que se va a eliminar)
+git clean -f (elimina archivos)
+
+
+
