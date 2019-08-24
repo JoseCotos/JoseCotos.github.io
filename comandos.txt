@@ -74,3 +74,5 @@ git status
 git pull origin master
 git push origin master
 
+-- hacer cambios en el proyecto
+git stash (guarda temporalmente lo que se cambio y vuelve a su estado original)
