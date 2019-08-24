@@ -81,6 +81,8 @@ git checkout footer
 git checkout master
 git stash pop
 git stash drop (elimina stash)
+
+git stash
 git stash branch experimento
 
 git clean --dry-run (lista lo que se va a eliminar)
