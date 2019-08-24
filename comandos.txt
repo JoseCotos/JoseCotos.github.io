@@ -66,3 +66,11 @@ git show-branch --all
 
 git clone URL
 
+-- para actualizar un folk
+git remote add upstream URL
+git remote -v
+git pull upstream master
+git status
+git pull origin master
+git push origin master
+
